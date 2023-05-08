@@ -1,0 +1,140 @@
+
+			<section>
+				<div class="px-4 py-5 my-5 text-center">
+					<img class="d-block mx-auto mb-4"
+						src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg" alt="" width="72"
+						height="57">
+					<h1 class="display-5 fw-bold text-body-emphasis">Coco Cola</h1>
+					<div class="col-lg-6 mx-auto">
+						<p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap,
+							the world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
+							responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+						<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+							<button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+							<button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg" alt="Coca-Cola" class="logo-img"> -->
+			<section>
+				<div class="row">
+					<div class="col-md-4">
+						<img class="coke-img"
+							src="https://www.coca-cola.com/content/dam/brands/coca-cola/global/logo.svg"
+							data-toggle="modal" data-target="#modal1">
+					</div>
+					<div class="col-md-4">
+						<img class="coke-img"
+							src="https://www.coca-cola.com/content/dam/brands/coca-cola/china/zh/homepage/COKE_red.png"
+							data-toggle="modal" data-target="#modal2">
+					</div>
+					<div class="col-md-4">
+						<img class="coke-img"
+							src="https://www.coca-cola.com/content/dam/brands/coca-cola/china/zh/homepage/COKE_zero.png"
+							data-toggle="modal" data-target="#modal3">
+					</div>
+				</div>
+			</section>
+			<!-- Modal 1 -->
+			<div id="modal1" class="modal fade coke-modal" role="dialog">
+				<div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h2>可口可乐</h2>
+						<x3d width="100%" height="400px">
+							<scene>
+								<shape>
+									<appearance>
+										<material diffuseColor="1.0 0.0 0.0"></material>
+									</appearance>
+									<extrusion
+										crossSection="0 0, 0.05 0.05, 0.1 0.1, 0.3 0.1, 0.35 0, 0.3 -0.1, 0.1 -0.1, 0 -0.05, 0 0"
+										spine="0 0 0, 0 1 0"></extrusion>
+								</shape>
+							</scene>
+						</x3d>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal 2 -->
+			<div id="modal2" class="modal fade coke-modal" role="dialog">
+				<div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h2>可口可乐红</h2>
+						<x3d width="100%" height="400px">
+							<scene>
+								<shape>
+									<appearance>
+										<material diffuseColor="1.0 0.0 0.0"></material>
+									</appearance>
+									<extrusion
+										crossSection="0 0, 0.05 0.05, 0.1 0.1, 0.3 0.1, 0.35 0, 0.3 -0.1, 0.1 -0.1, 0 -0.05, 0 0"
+										spine="0 0 0, 0 1 0"></extrusion>
+								</shape>
+							</scene>
+						</x3d>
+					</div>
+				</div>
+			</div>
+
+			<!-- Modal 3 -->
+			<div id="modal3" class="modal fade coke-modal" role="dialog">
+				<div class="modal-dialog">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h2>可口可乐零</h2>
+						<x3d width="100%" height="400px">
+							<scene>
+								<shape>
+									<appearance>
+										<material diffuseColor="1.0 0.0 0.0"></material>
+									</appearance>
+									<extrusion
+										crossSection="0 0, 0.05 0.05, 0.1 0.1, 0.3 0.1, 0.35 0, 0.3 -0.1, 0.1 -0.1, 0 -0.05, 0 0"
+										spine="0 0 0, 0 1 0"></extrusion>
+								</shape>
+							</scene>
+						</x3d>
+					</div>
+				</div>
+			</div>
+		
+
+
+
+load php 
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coca Cola Branded 3D App</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/x3dom.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <header>
+    <!-- Add Coca Cola branding and navigation here -->
+  </header>
+  <main>
+    <div id="x3d-container">
+      <!-- Add X3D models here using X3DOM -->
+    </div>
+    <div id="content">
+      <!-- Add content here that will be updated with AJAX -->
+    </div>
+  </main>
+  <footer>
+    <!-- Add footer information here -->
+  </footer>
+</body>
+</html>
